@@ -1,7 +1,7 @@
 <P align="center">
 Bin Api Telegram
  <P align="center">
-<img src="https://giffiles.alphacoders.com/152/15268.gif" width="230" height="230"/>
+<img src="https://github.com/jcystem/bin-api-bot/blob/072fea26efc57182176d698284cd19bb5d662666/20220707_183713.jpg" width="230" height="230"/>
 </p>
 <br>
 
