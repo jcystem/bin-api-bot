@@ -86,6 +86,7 @@ TOKEN - Your Bot Token
 
 ## Our Telegram Support Chat
 [![Telegram](https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegram)](https://t.me/jcystemproject)
+[![Bin Api Bot](https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegram)](https://t.me/bin_api_bot)
 
 # Deploy To Heroku
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jcystem/bin-api-bot)
