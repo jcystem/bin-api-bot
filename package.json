@@ -1,0 +1,56 @@
+{
+
+  "name": "bin-api-bot",
+
+  "version": "0.1",
+
+  "description": "Bin Api",
+
+  "repository": {
+
+    "type": "git",
+
+    "url": "https://github.com/jcystem/bin-api-bot"
+
+  },
+
+  "main": "app.js",
+
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "start": "node app.js",
+
+    "dev": "nodemon app.js"
+
+  },
+
+  "author": "@jcystem",
+
+  "license": "ISC",
+
+  "dependencies": {
+
+    "@jcystem/bin-lookup": "^1.1.1",
+
+    "cors": "^2.8.5",
+
+    "express": "^4.18.1"
+
+  },
+
+  "engines": {
+
+    "node": ">=14"
+
+  },
+
+  "devDependencies": {
+
+    "nodemon": "2.0.17"
+
+  }
+
+}
+
