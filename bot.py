@@ -76,7 +76,7 @@ async def binc(event):
     try:
         input = event.text.split(" ", maxsplit=1)[1]
 
-        url = requests.get(f"https://bins-su-api.now.sh/api/{input}")
+        url = requests.get(f"https://api-bin-v1.herokuapp.com/api/{bin")
         res = url.json()
         vendor = res['data']['vendor']
         type = res['data']['type']
