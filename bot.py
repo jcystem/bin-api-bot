@@ -33,7 +33,6 @@ async def start(event):
         return
     await event.reply(f"**Hola {event.sender.first_name}**\nBin-Api se a Iniciado.\nUse /help para ver el menu de ayuda.\nUse /bin + el número de bin que desea verificar.", buttons=[
     [Button.url("💸 Create Donation", "https://www.paypal.me/srnovus")]
-    [Button.url("🗃 Codigo Fuente", "https://github.com/jcystem/bin-api-bot")]
     ])
 
 @bin.on(events.NewMessage(pattern="^[!?/]help$"))
@@ -51,9 +50,7 @@ actualizaciónes, esto significa que puede presentar
 fallas, puedes reportarlas aqui: -> @jcystemchat
 """
     await event.reply(text, buttons=[
-    [Button.url("💸 Create Donation", "https://www.paypal.me/srnovus")]
-    [Button.url("🗃 Codigo Fuente", "https://github.com/jcystem/bin-api-bot")]
-    ])
+    [Button.url("💸 Create Donation", "https://www.paypal.me/srnovus")]])
     
 @bin.on(events.NewMessage(pattern="^[!?/]info$"))
 async def info(event):
@@ -76,7 +73,7 @@ async def binc(event):
     try:
         input = event.text.split(" ", maxsplit=1)[1]
 
-        url = requests.get(f"https://api-bin-v1.herokuapp.com/api/{bin")
+        url = requests.get(f"https://bins-su-api.now.sh/api/{input}")
         res = url.json()
         vendor = res['data']['vendor']
         type = res['data']['type']
