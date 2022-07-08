@@ -6,7 +6,7 @@ Bin Api Telegram
 <br>
 
 <p align="center">
-<a href="https://github.com/jcystem/"><img title="Autor" src="https://img.shields.io/badge/Autor-Matt_M-orange?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/jcystem/"><img title="Autor" src="https://img.shields.io/badge/Autor-JCystem-orange?style=for-the-badge&logo=github"></a>
 </p>
  
 </details>
