@@ -1,19 +1,17 @@
 <P align="center">
 Bin Api Telegram
  <P align="center">
-<img src="https://github.com/jcystem/bin-api-bot/blob/072fea26efc57182176d698284cd19bb5d662666/20220707_183713.jpg" width="230" height="230"/>
+<img src="https://giffiles.alphacoders.com/152/15268.gif" width="230" height="230"/>
 </p>
 <br>
 
 <p align="center">
-<a href="https://github.com/jcystem/"><img title="Autor" src="https://img.shields.io/badge/Autor-JCystem-orange?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/jcystem/"><img title="Autor" src="https://img.shields.io/badge/Autor-Matt_M-orange?style=for-the-badge&logo=github"></a>
 </p>
  
 </details>
 <P align="center">
-Codigo Abierto bajo
 
-Licencia GNU
 
 </p>
 
@@ -26,7 +24,7 @@ async def info(event):
    text = """
 
 **🤖 Bot :** Bin Checker Api
-**📥 Versión :** v0.1 
+**📥 Versión :** v2.0.0
 **🧑‍💻 Developer :** [Javier Caceres](https://github.com/jcystem/)
 **💻 Channel :** No Disponible
 **☎️ Support :** No Disponible
@@ -53,7 +51,7 @@ async def binc(event):
     try:
         input = event.text.split(" ", maxsplit=1)[1]
 
-        url = requests.get(f"https://api-bin-v1.herokuapp.com/api/{bin")
+        url = requests.get(f"https://bins-su-api.now.sh/api/{input}")
         res = url.json()
         vendor = res['data']['vendor']
         type = res['data']['type']
@@ -84,9 +82,21 @@ API_HASH - Your Telegram API HASH
 TOKEN - Your Bot Token
 ```
 
-## Our Telegram Support Chat
-[![Telegram](https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegram)](https://t.me/jcystemproject)
-[![Bin Api Bot](https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegram)](https://t.me/bin_api_bot)
-
 # Deploy To Heroku
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jcystem/bin-api-bot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jcystem/bin-bot)
+
+### `—◉ 💰 DONAR 💰`
+- AGRADECE CON UNA DONACION VOLUNTARIA [Aqui](https://www.paypal.me/srnovus/)
+
+
+### `—◉ 📝 NOTAS 📝`
+```bash
+- ES POSIBLE QUE EL BOT TENGA ALGUNAS FALLAS, SE IRAN SOLUCIONANDO CONFORME SE VAYAN DETECTANDO
+- ES RECOMENDABLE LEER TODO EL MENU Y VER EL FUNCIONAMIENTO DE CADA UNO DE LOS COMANDOS
+- REPORTA CUALQUIER FALLO
+```
+
+## `EDITOR Y PORPIETARIO DEL BOT` 
+
+`BIN APIs - Bot __________ By Javier Caceres`
+

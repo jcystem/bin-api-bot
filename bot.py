@@ -50,14 +50,14 @@ actualizaciónes, esto significa que puede presentar
 fallas, puedes reportarlas aqui: -> @jcystemchat
 """
     await event.reply(text, buttons=[
-    [Button.url("💸 Create Donation", "https://www.paypal.me/srnovus")]])
+    [Button.url("💸 Create Donation", "https://www.paypal.me/srnovus")]
+    ])
     
-@bin.on(events.NewMessage(pattern="^[!?/]info$"))
-async def info(event):
-   text = """
-
-**🤖 Bot :** Bin Checker Api
-**📥 Versión :** v0.1 
+@bin.on(events.NewMessage(pattern="^[!?/]about$"))
+async def about(event):
+    text = """
+**🤖 Bot :** Bin APIs
+**📥 Versión :** v2.0.0
 **🧑‍💻 Developer :** [Javier Caceres](https://github.com/jcystem/)
 **💻 Channel :** No Disponible
 **☎️ Support :** No Disponible
