@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/jcystem/"><img title="Autor" src="https://img.shields.io/badge/Autor-Javier-orange?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/jcystem/"><img title="Autor" src="https://img.shields.io/badge/Autor-Javier-blue?style=for-the-badge&logo=github"></a>
 </p>
  
 </details>
