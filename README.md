@@ -1,10 +1,3 @@
-<P align="center">
-Bin Api Telegram
- <P align="center">
-<img src="https://giffiles.alphacoders.com/152/15268.gif" width="230" height="230"/>
-</p>
-<br>
-
 <p align="center">
 <a href="https://github.com/jcystem/"><img title="Autor" src="https://img.shields.io/badge/Autor-Javier-orange?style=for-the-badge&logo=github"></a>
 </p>
