@@ -53,19 +53,8 @@ async def binc(event):
         country = res['data']['country']
         me = (await event.client.get_me()).username
 
-        valid = f"""
-<b>➤ Bin Valido ✔:</b>
-
-<b>Bin -</b> <code>{input}</code>
-<b>Estado -</b> <code>Valid Bin</code>
-<b>Servicio -</b> <code>{vendor}</code>
-<b>Tipo -</b> <code>{type}</code>
-<b>Nivel -</b> <code>{level}</code>
-<b>Banco -</b> <code>{bank}</code>
-<b>Región -</b> <code>{country}</code>
-
-<b>Checked By - @{me}</b>
-<b>User-ID - {event.sender_id}</b>
+        valid = f
+        
 ```
 
 ## Requisitos
